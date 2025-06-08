@@ -1,5 +1,15 @@
-fastapi
-uvicorn
-ollama
-python-dotenv
-requests
+# Python dependencies for FastAPI LLM API
+# Install with: pip install -r requirements.txt
+
+# Core web framework and server
+fastapi          # Modern, fast web framework for building APIs with Python 3.6+
+uvicorn          # Lightning-fast ASGI server implementation
+
+# AI/ML integration
+ollama           # Python client for Ollama (local LLM hosting platform)
+
+# Configuration management  
+python-dotenv    # Load environment variables from .env files
+
+# HTTP client (for testing)
+requests         # Simple HTTP library for making API requests

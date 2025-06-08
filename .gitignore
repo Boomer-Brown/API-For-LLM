@@ -1,3 +1,14 @@
+# Git Ignore File for FastAPI LLM API Project
+# This file specifies which files and directories Git should ignore
+# when tracking changes in the repository.
+#
+# Key exclusions for this project:
+# - .env files (contain sensitive API keys)
+# - Python cache files and compiled bytecode
+# - IDE/editor configuration files
+# - Virtual environment directories
+# - Build artifacts and distribution files
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
